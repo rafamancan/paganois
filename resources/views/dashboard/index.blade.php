@@ -17,9 +17,9 @@
     <div class="pb-12">
         <div class="flex flex-row gap-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <x-card.simple title="{{ __('Horas no mês') }}" value="135" toggle="hide" />
-            <x-card.simple title="{{ __('Valor a receber') }}" value="R$ 13.131,13" toggle="hide" />
-            <x-card.simple title="{{ __('Horas restantes') }}" value="14" toggle="hide" />
+            <x-card.simple title="{{ __('Horas restantes') }}" value="14" toggle="show" />
             <x-card.simple title="{{ __('Projetos ativos') }}" value="3" toggle="hide" />
+            <x-card.simple title="{{ __('Valor a receber') }}" value="R$ 13.131,13" toggle="hide" />
         </div>
     </div>
 </x-app-layout>

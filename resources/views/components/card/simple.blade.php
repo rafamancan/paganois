@@ -9,7 +9,7 @@
         </div>
     @endif
 
-    <div class="flex flex-row p-6 text-sm text-gray-900 dark:text-gray-100">
+    <div class="p-6 text-sm text-center text-gray-900 dark:text-gray-100">
         {{ $title }}
     </div>
 
@@ -19,7 +19,7 @@
         @endif
 
         @if (isset($toggle))
-            <span class="text-gray-300 cardContentValue {{ $toggle === 'hide' ? 'hidden' : 'block' }}">
+            <span class="text-gray-300 h-5 cardContentValue {{ $toggle === 'hide' ? 'hidden' : 'block' }}">
                 {{ $value }}
             </span>
             <div
